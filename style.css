@@ -189,4 +189,38 @@ body {
     width: 90vw;
     padding: 30px 18px 28px;
   }
+  }
+
+  /* HEADER */
+.header3 {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 16px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(0,0,0,0.3);
+  backdrop-filter: blur(10px);
+  color: white;
+  z-index: 100;
+}
+
+/* HERO */
+.hero3 {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD OVERLAY */
+.overlay-card {
+  background: rgba(255,255,255,0.25);
+  backdrop-filter: blur(15px);
+  padding: 25px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
 }
